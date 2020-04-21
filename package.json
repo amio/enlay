@@ -1,0 +1,16 @@
+{
+  "name": "enlay",
+  "version": "0.0.0",
+  "description": "Inlay text file with env variables",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "./index.js test/template.txt"
+  },
+  "keywords": [
+    "env",
+    "substitute"
+  ],
+  "author": "Amio <amio.jin@gmail.com>",
+  "license": "MIT"
+}

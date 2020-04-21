@@ -1,0 +1,4 @@
+     "${HOME}"                         => "/root"
+     "${NONE_EXIST}"                   => "${NONE_EXIST}"
+     "${NONE_EXIST:-localhost:3000}"   => "localhost:3000"
+     "${NONE_EXIST:-}"                 => ""
